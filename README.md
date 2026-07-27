@@ -21,56 +21,77 @@ Import your `.ged` file and everything happens inside your browser: parsing, lay
 ## Features
 
 ### Overview & Stats
-A summary dashboard: total people, families, unique surnames, locations, and the full timespan of your tree at a glance.
+See a breakdown of people, families, last names, locations, and timespans at a glance.
 
 ![Overview](Images/overview.png)
 
 ### Family Tree
-An interactive graphical tree for navigating ancestors and descendants. Pan, zoom, and click through generations.
+Visualize your ancestors and descendants in an interactive graphical tree.
 
 ![Family Tree](Images/tree.png)
 
 ### Charts
-Generate a descendant chart for any individual, or produce a relationship diagram between any two people in your tree. More chart types (ancestor, hourglass, fan) are in progress.
+Generate descendant charts and relation report diagrams for any individual in your tree.
 
 ![Descendant Chart](Images/descendant%20chart.png)
 ![Relation Report Chart](Images/relation%20report%20chart.png)
 
 ### Data Table
-Every individual and all their recorded data in a sortable, filterable grid. Search by name, date, location, or any field.
+Browse every individual with sortable, filterable columns for quick searching.
 
 ![Data Table](Images/data.png)
 
+### Profile
+View a detailed page for each individual: life events, family connections, photos, and sources.
+
+![Profile](Images/profile.png)
+
 ### Timeline
-Every birth, death, marriage, and recorded event across all generations laid out in chronological order, with filters to narrow by type or date range.
+Explore every birth, death, marriage, and event across all generations in chronological order.
 
 ![Timeline](Images/timeline.png)
 
 ### Gallery
-All photos and media embedded in your GEDCOM file collected into one browsable view.
+View photos and media embedded in your GEDCOM file in one place.
 
 ![Gallery](Images/gallery.png)
 
 ### Calendar
-Birthdays and anniversaries displayed in a familiar calendar layout so you never miss one.
+Browse birthdays and anniversaries laid out in a calendar view.
 
 ![Calendar](Images/calendar.png)
 
 ### Map
-Birth, death, marriage, and burial locations plotted on an interactive world map, with animated migration paths showing how your family moved across generations.
+Visualize birth, death, marriage, and burial locations pinned on an interactive world map.
 
 ![Map](Images/map.png)
 ![Migration Paths](Images/migration.png)
 
 ### Archive
-Sources, citations, and repository records linked to individuals. All the documentation behind your research in one place.
+Browse sources, citations, and repository records linked to individuals in your tree.
 
 ![Archive](Images/archive.png)
 
+### History
+See which people and families were most recently changed, based on the modification dates recorded in your GEDCOM file.
+
+![History](Images/history.png)
+
 ### Issues
-Automatic data quality checks: impossible dates, death before birth, missing required fields, and other inconsistencies flagged in one report so you know what to fix.
+Scan your GEDCOM for data problems: impossible dates, missing fields, and inconsistencies, all in one report.
 
 ![Issues](Images/issues.png)
+
+### Editor
+View and edit the raw GEDCOM file directly, with each level indented for readability.
+
+### Exports
+Export the tree and charts to PDF or PNG, the overview, profiles, timeline, and calendar year to PDF, and the data table to CSV or Excel. Every export is kept on your browser for 7 days.
+
+![Exports](Images/exports.png)
+
+### Blog
+Guides, tips, and articles on genealogy research, GEDCOM files, and getting the most from your family data.
 
 ---
 
@@ -105,22 +126,23 @@ Files you import are saved in your browser's local storage so they're available 
 ## Roadmap
 
 **Completed recently**
-- Ancestor & descendant charts
-- Animated migration paths on the map
+- Descendant chart
 - Relationship finder (e.g. "7th cousin twice removed")
 - Localization / interface translations
 - Issues / data quality report
+- History view of recently changed people and families
+- Raw GEDCOM editor
+- Exports to PDF, PNG, CSV, and Excel across every view
+- Larger file support (now handles up to ~80 MB / 6,000 people in the tree view; 50,000+ across all other views)
+- Calendar sync (Google Calendar, Apple Calendar, etc.)
 
 **Planned**
-- Export everything: tree diagrams, timeline, profiles, and the full data table to PDF, image, CSV, or Excel
 - Theme builder for colors, fonts, and card styles
-- Larger file support (currently handles up to ~12 MB / 3,000 people in the tree view; 50,000+ across all other views)
 - Document & media attachments directly to individuals and events
 
 **Long-term**
 - Optional accounts and cloud sync (still fully private, data never sold or shared)
 - Family sharing with access controls
-- Calendar sync (Google Calendar, Apple Calendar, etc.)
 - Collaborative editing with version history
 
 ---
