@@ -1,4 +1,4 @@
-# ged-view (description only repo - no code)
+# ged-view.com (description only repo - no code)
 
 **A modern, privacy-first GEDCOM viewer. Everything runs in your browser.**
 
