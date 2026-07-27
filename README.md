@@ -83,7 +83,7 @@ Scan your GEDCOM for data problems: impossible dates, missing fields, and incons
 ![Issues](Images/issues.png)
 
 ### Editor
-View and edit the raw GEDCOM file directly, with each level indented for readability.
+View and edit the raw GEDCOM file directly, with each level indented for readability. (in beta stage)
 
 ### Exports
 Export the tree and charts to PDF or PNG, the overview, profiles, timeline, and calendar year to PDF, and the data table to CSV or Excel. Every export is kept on your browser for 7 days.
